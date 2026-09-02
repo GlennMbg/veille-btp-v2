@@ -1,0 +1,12 @@
+export const metadata = {
+  title: "Veille BTP — ADN Potentiel",
+  description: "Veille Transmission / BTP général / IA",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="fr">
+      <body style={{ fontFamily: "system-ui, sans-serif", margin: 0 }}>{children}</body>
+    </html>
+  );
+}
